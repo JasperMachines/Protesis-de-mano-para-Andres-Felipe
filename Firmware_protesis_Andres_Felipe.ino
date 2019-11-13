@@ -50,8 +50,7 @@ void loop() {
   Serial.println(sensor);                                   //Reporta el promedio calculado por serial
   
 
-  if (sensor < 500 ) {                      //Cuando la lectura del sensor es menor a 500 los dedos se extienden 
-                                            //y la muñeca queda en la ultima posición registrada
+  if (sensor < 500 ) {                      //Cuando la lectura del sensor es menor a 500 los dedos se extienden
                                             //este valor de umbral de desactivación debe ser igual al tomado cuando 
                                             //el beneficiario relaja la extremidad
                                             
